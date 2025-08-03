@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edwin Asaph | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Edwin Asaph</h1>
+    <p>I'm passionate about using technology to solve real-world problems and make life better for others.</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+  <h2>About Me</h2>
+  <img src="f780d2a2-ec32-4364-96de-50e2cc43556f.jpg" alt="Edwin Asaph profile photo" width="200" style="border-radius: 100px; margin-bottom: 15px;">
+  <p>Hello! I'm Edwin Asaph, a curious learner from Nairobi, Kenya, who believes that technology can create meaningful change. My journey into tech has been driven by a deep desire to learn and a love for innovation that touches lives. I'm currently diving into web development and data analysis to bring ideas to life.</p>
+</section>
+
+    <section id="skills">
+      <h2>What I Can Do</h2>
+      <ul>
+        <li>Build webpages with HTML and CSS</li>
+        <li>Write Python scripts and basic programs</li>
+        <li>Analyze data using Excel</li>
+        <li>Use GitHub to share and collaborate on code</li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>My Education</h2>
+      <p><strong>Certificate in Data Analysis Using Excel</strong><br>Digital Opportunity Trust, 2022</p>
+      <p><a href="Edwin_Asaph_Tech_CV.pdf" download>📎 Download My CV</a></p>
+    </section>
+
+    <section id="interests">
+      <h2>What Drives Me</h2>
+      <p>I’m especially excited about projects that use tech for good. Whether it's AI that helps people make better decisions or simple websites that connect communities, I’m here for it. I love learning new tools, building useful things, and sharing knowledge with others.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Things I've Built</h2>
+      <ul>
+        <li><strong>Personal Portfolio</strong> – This very website! It's my first step into the world of frontend development.</li>
+        <li><strong>Youth Empowerment Platform</strong> – (Coming Soon) A space where young people can find mentors and opportunities.</li>
+        <li><strong>Community Data Dashboard</strong> – A simple data tracker built in Excel to monitor local development stats.</li>
+      </ul>
+      <p>🔗 Want to explore more of my work? Visit: <a href="https://github.com/asaphedwin" target="_blank">github.com/asaphedwin</a></p>
+    </section>
+
+    <section id="contact">
+      <h2>Let's Talk</h2>
+      <p>If you’d like to connect, collaborate, or just have a friendly chat—drop me a message below or send an email.</p>
+      <form>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br>
+
+        <button type="submit">Send Message</button>
+      </form>
+      <p>📧 Email: <a href="mailto:edwinasaph360@gmail.com">edwinasaph360@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Edwin Asaph. Thanks for stopping by!</p>
+  </footer>
+</body>
+</html>
